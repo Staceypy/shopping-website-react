@@ -1,0 +1,41 @@
+// create customer
+POST http://localhost:2800/customers HTTP/1.1
+content-type: application/json
+
+{
+    "id":0,
+    "firstName":"emily",
+    "lastName": "johnson",
+    "email": "emily.johnson@example.com",
+    "pass": "password123"
+}
+###
+
+// create a guest customer
+POST http://localhost:2800/customers HTTP/1.1
+content-type: application/json
+
+{
+    "id":0,
+    "firstName":"john",
+    "lastName": "smith",
+    "email": "john.smith@example.com",
+    "pass": "password123"
+}
+###
+
+// delete a customer
+DELETE http://localhost:2800/customers/john.smith@example.com HTTP/1.1
+
+###
+
+// get all customers
+GET http://localhost:2800/customers HTTP/1.1
+
+###
+
+//get customer by email
+
+GET http://localhost:2800/customers/john.smith@example.com HTTP/1.1
+
+###

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "productName": "men black denim hoodie",
+    "price": 400,
+    "tags": ["hoodies", "men", "black"],
+    "description": "Made of premium Pima cotton, this black denim hoodie is a must-have for your wardrobe.",
+    "imgurl": "../img/all_items/hoodie_men_black_2.png"
+  },
+  {
+    "id": 2,
+    "productName": "men black hoodie",
+    "price": 250,
+    "tags": ["hoodies", "men", "black"],
+    "description": "Add a touch of classic style to your look with this black hoodie, featuring premium Pima cotton for ultimate comfort.",
+    "imgurl": "../img/all_items/hoodie_men_black.png"
+  },
+  {
+    "id": 3,
+    "productName": "men red hoodie",
+    "price": 300,
+    "tags": ["hoodies", "men", "red"],
+    "description": "Stay comfortable and stylish with this red hoodie, made from premium Pima cotton for a soft feel and vibrant color.",
+    "imgurl": "../img/all_items/hoodie_men_red.png"
+  },
+  {
+    "id": 4,
+    "productName": "men white hoodie",
+    "price": 300,
+    "tags": ["hoodies", "men", "white"],
+    "description": "Achieve a timeless look with this white hoodie, crafted from premium Pima cotton for a soft feel and a comfortable fit.",
+    "imgurl": "../img/all_items/hoodie_men_white.png"
+  },
+  {
+    "id": 5,
+    "productName": "women black hoodie",
+    "price": 250,
+    "tags": ["hoodies", "women", "black", "offer"],
+    "description": "Elevate your casual style with this black hoodie, made from premium Pima cotton for a soft and cozy feel.",
+    "imgurl": "../img/all_items/hoodie_women_black.png"
+  },
+  {
+    "id": 6,
+    "productName": "women red hoodie",
+    "price": 400,
+    "tags": ["hoodies", "women", "red"],
+    "description": "Stay fashionable and comfortable with this red hoodie, featuring premium Pima cotton for a luxurious feel and vibrant color.",
+    "imgurl": "./img/all_items/hoodie_women_red.png"
+  },
+  {
+    "id": 7,
+    "productName": "women red hoodie 2",
+    "price": 350,
+    "tags": ["hoodies", "women", "red"],
+    "description": "Make a statement with this red hoodie, made from premium Pima cotton for a soft and cozy feel.",
+    "imgurl": "../img/all_items/hoodie_women_red_2.png"
+  },
+  {
+    "id": 8,
+    "productName": "women white hoodie",
+    "price": 300,
+    "tags": ["hoodies", "women", "white"],
+    "description": "Add a touch of elegance to your outfit with this white hoodie, crafted from premium Pima cotton for ultimate comfort.",
+    "imgurl": "../img/all_items/hoodie_women_white.png"
+  },
+  {
+    "id": 9,
+    "productName": "men black sweater",
+    "price": 400,
+    "tags": ["sweaters", "men", "black"],
+    "description": "Add a touch of sophistication to your look with this black sweater, featuring premium Pima cotton for a soft and cozy feel.",
+    "imgurl": "../img/all_items/sweater_men_black.png"
+  },
+  {
+    "id": 10,
+    "productName": "men red sweater",
+    "price": 700,
+    "tags": ["sweaters", "men", "red", "offer"],
+    "description": "Stay warm and stylish with this red sweater, made from premium Pima cotton for ultimate comfort and a vibrant look.",
+    "imgurl": "../img/all_items/sweater_men_red.png"
+  },
+  {
+    "id": 11,
+    "productName": "men white sweater",
+    "price": 200,
+    "tags": ["sweaters", "men", "white"],
+    "description": "Achieve a classic and timeless look with this white sweater, crafted from premium Pima cotton for a soft feel and a comfortable fit.",
+    "imgurl": "../img/all_items/sweater_men_white.png"
+  },
+  {
+    "id": 12,
+    "productName": "women black buttoned sweater",
+    "price": 350,
+    "tags": ["sweaters", "women", "black"],
+    "description": "Add a touch of elegance to your outfit with this black buttoned sweater, made from premium Pima cotton for a soft feel and a flattering fit.",
+    "imgurl": "../img/all_items/sweater_women_black.png"
+  },
+  {
+    "id": 13,
+    "productName": "women red sweater 2",
+    "price": 200,
+    "tags": ["sweaters", "women", "red"],
+    "description": "Stay cozy and stylish with this red sweater, featuring premium Pima cotton for a soft feel and a vibrant look.",
+    "imgurl": "../img/all_items/sweater_women_red_2.png"
+  },
+  {
+    "id": 14,
+    "productName": "women red sweater",
+    "price": 400,
+    "tags": ["sweaters", "women", "red"],
+    "description": "Make a fashion statement with this red sweater, crafted from premium Pima cotton for a soft and cozy feel.",
+    "imgurl": "../img/all_items/sweater_women_red.png"
+  },
+  {
+    "id": 15,
+    "productName": "women white sweater 2",
+    "price": 300,
+    "tags": ["sweaters", "women", "white"],
+    "description": "Stay stylish and comfortable with this white sweater, featuring premium Pima cotton for a soft feel and a modern look.",
+    "imgurl": "../img/all_items/sweater_women_white_2.png"
+  },
+  {
+    "id": 16,
+    "productName": "women white sweater",
+    "price": 400,
+    "tags": ["sweaters", "women", "white"],
+    "description": "Add a touch of elegance to your outfit with this white sweater, made from premium Pima cotton for a soft feel and a flattering fit.",
+    "imgurl": "../img/all_items/sweater_women_white.png"
+  },
+  {
+    "id": 17,
+    "productName": "men white t-shirt",
+    "price": 300,
+    "tags": ["tshirts", "men", "white"],
+    "description": "Add a classic staple to your wardrobe with this white t-shirt, crafted from premium Pima cotton for a soft and comfortable feel.",
+    "imgurl": "../img/all_items/T_men_white.png"
+  },
+  {
+    "id": 18,
+    "productName": "men black t-shirt",
+    "price": 200,
+    "tags": ["tshirts", "men", "black"],
+    "description": "Stay stylish and comfortable with this black t-shirt, made from premium Pima cotton for a soft and breathable feel.",
+    "imgurl": "../img/all_items/T_men_black.png"
+  },
+  {
+    "id": 19,
+    "productName": "men red t-shirt",
+    "price": 250,
+    "tags": ["tshirts", "men", "red"],
+    "description": "Add a pop of color to your look with this red t-shirt, crafted from premium Pima cotton for a soft and vibrant feel.",
+    "imgurl": "../img/all_items/T_men_red.png"
+  },
+  {
+    "id": 20,
+    "productName": "men red t-shirt 2",
+    "price": 250,
+    "tags": ["tshirts", "men", "red"],
+    "description": "Stay trendy and comfortable with this red t-shirt, made from premium Pima cotton for a soft and breathable feel.",
+    "imgurl": "../img/all_items/T_men_red_2.png"
+  },
+  {
+    "id": 21,
+    "productName": "women white t-shirt",
+    "price": 150,
+    "tags": ["tshirts", "women", "white", "offer"],
+    "description": "Add a versatile and comfortable piece to your wardrobe with this white t-shirt, featuring premium Pima cotton for a soft and flattering fit.",
+    "imgurl": "../img/all_items/T_women_white.png"
+  },
+  {
+    "id": 22,
+    "productName": "women red t-shirt",
+    "price": 200,
+    "tags": ["tshirts", "women", "red"],
+    "description": "Stay stylish and comfortable with this red t-shirt, made from premium Pima cotton for a soft and vibrant feel.",
+    "imgurl": "../img/all_items/T_women_red.png"
+  },
+  {
+    "id": 23,
+    "productName": "women black big t-shirt",
+    "price": 100,
+    "tags": ["tshirts", "women", "black"],
+    "description": "Add a casual and comfortable piece to your wardrobe with this black big t-shirt, made from premium Pima cotton for a soft and relaxed fit.",
+    "imgurl": "../img/all_items/T_women_black.png"
+  },
+  {
+    "id": 24,
+    "productName": "women black slim t-shirt",
+    "price": 150,
+    "tags": ["tshirts", "women", "black"],
+    "description": "Stay chic and comfortable with this black slim t-shirt, crafted from premium Pima cotton for a soft and flattering fit.",
+    "imgurl": "../img/all_items/T_women_black_2.png"
+  }
+]

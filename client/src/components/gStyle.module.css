@@ -1,0 +1,33 @@
+.checkboxRow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.title {
+	position: relative;
+	font-size: 10px;
+	font-weight: 500;
+    color: #333333;
+}
+
+.Pimage {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 2px solid #11659a;
+  border-radius: 40px; /* adjust the image roundness */
+}
+
+.Ptitle {
+  color: #11659a;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.Ptext {
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

@@ -1,0 +1,63 @@
+// create cart
+POST http://localhost:2800/cart HTTP/1.1
+content-type: application/json
+
+{
+    "id":846575587,
+    "items": 
+    [
+        {
+            "id": 1,
+            "productName":"t-shirt",
+            "price": 200,
+            "tags": ["tshirt","women","black"],
+            "description": "100% cotton",
+            "imgurl": "../img/all_items/hoodie_men_black_2.png",
+            "quantity": 5
+        },
+        {
+            "id": 2,
+            "productName":"t-shirt",
+            "price": 200,
+            "tags": ["tshirt","women","black"],
+            "description": "100% cotton",
+            "imgurl": "../img/all_items/hoodie_men_black_2.png",
+            "quantity": 1  
+        }          
+    ]
+}
+
+###
+
+// get items in the cart of a customer
+GET http://localhost:2800/cart/846575587/items HTTP/1.1
+
+###
+
+// delete an item from a cart
+DELETE http://localhost:2800/cart/846575587/items/2 HTTP/1.1
+
+###
+
+// add one of the item to a customer's cart
+PUT http://localhost:2800/cart/846575587/items/2 HTTP/1.1
+
+###
+
+PUT http://localhost:2800/cart/777177418/items/4 HTTP/1.1
+###
+
+// delete one of the item from a customer's cart
+PUT  http://localhost:2800/cart/810836919/items/2/dec HTTP/1.1
+
+###
+
+// add quantity of an item to a customer's cart
+PUT  http://localhost:2800/cart/777177418/items/2/3HTTP/1.1
+
+###
+
+// delete all items from a customer's cart
+DELETE  http://localhost:2800/cart/846575587/items HTTP/1.1
+
+###
