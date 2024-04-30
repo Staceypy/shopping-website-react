@@ -1,14 +1,3 @@
-cd server
-
-npm run watch
-
-cd client
-
-(npm intall) for the first run
-
-npm start
-
-```
 import { useEffect, useRef } from "react";
 
 /**
@@ -61,5 +50,3 @@ const useRenderingTrace = (
 };
 
 export default useRenderingTrace;
-
-```

@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import { CartItem } from "../components/CartItem";
 import { useShoppingCart } from "../context/CartContext";
 
-
 type Customer = {
   id: number;
   firstName: string;
@@ -24,7 +23,7 @@ type Customer = {
 // };
 
 export function Cart() {
-  const { cartItems, getItemQuantity  } = useShoppingCart();
+  const { cartItems, getItemQuantity } = useShoppingCart();
   const customer = useSelector(
     (state: { customer: Customer | null }) => state.customer
   );
@@ -37,18 +36,19 @@ export function Cart() {
   // console.log("customer in cart",customer);
   // console.log("cart items", cartItems);
 
-
   const capitalizeFirstLetter = (string: string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
 
   return (
     <section id="cart" className="section-p1">
-      {customer && customer.firstName !== 'guest' ? (
+      {customer && customer.firstName !== "guest" ? (
         <div>
-        <h2 style={{marginBottom: '100px'}} >
-        Hi {capitalizeFirstLetter(customer?.firstName)}, your cart is waiting for you!
-        </h2></div>
+          <h2 style={{ marginBottom: "100px" }}>
+            Hi {capitalizeFirstLetter(customer?.firstName)}, your cart is
+            waiting for you!
+          </h2>
+        </div>
       ) : (
         <div></div>
       )}
@@ -64,12 +64,12 @@ export function Cart() {
           </tr>
         </thead>
         <tbody>
-            {cartItems.map((item) => (
+          {cartItems.map((item) => (
             <CartItem key={item.id} id={item.id} quantity={item.quantity} />
-            ))}
+          ))}
         </tbody>
       </Table>
-      
+
       <section id="cart-add" className="section-p1">
         <div id="subtotal">
           <h3>Cart Totals</h3>
