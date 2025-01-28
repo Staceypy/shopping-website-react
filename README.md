@@ -1,65 +1,48 @@
+# T-Shirt E-Commerce Website
+
+A full-stack e-commerce web application built with React and express for T-shirt enthusiasts. The platform includes a responsive design, user authentication, and a shopping cart system.
+
+## Key Features
+
+- 📱 Responsive design for desktop and mobile devices
+- 🛍️ Browse T-shirts across multiple categories
+- 🔐 User authentication (login/register)
+- 🛒 Shopping cart functionality
+
+## Setup
+
+### Install dependencies and run the server:
+
+```
 cd server
 
-npm run watch
+npm install
 
+npm run watch
+```
+
+### Install client dependencies and run the client:
+
+```
 cd client
 
-(npm intall) for the first run
+npm install
 
 npm start
-
 ```
-import { useEffect, useRef } from "react";
 
-/**
- * Helps tracking the props changes made in a react functional component.
- *
- * Prints the name of the properties/states variables causing a render (or re-render).
- * For debugging purposes only.
- *
- * @usage You can simply track the props of the components like this:
- *  useRenderingTrace('MyComponent', props);
- *
- * @usage You can also track additional state like this:
- *  const [someState] = useState(null);
- *  useRenderingTrace('MyComponent', { ...props, someState });
- *
- * @param componentName Name of the component to display
- * @param propsAndStates
- * @param level
- *
- * @see https://stackoverflow.com/a/51082563/2391795
- */
-const useRenderingTrace = (
-  componentName: string,
-  propsAndStates: any,
-  level: "debug" | "info" | "log" = "debug"
-) => {
-  const prev = useRef(propsAndStates);
+The website will open in your default browser at `http://localhost:3000`.
 
-  useEffect(() => {
-    const changedProps: { [key: string]: { old: any; new: any } } =
-      Object.entries(propsAndStates).reduce(
-        (property: any, [key, value]: [string, any]) => {
-          if (prev.current[key] !== value) {
-            property[key] = {
-              old: prev.current[key],
-              new: value,
-            };
-          }
-          return property;
-        },
-        {}
-      );
+## Website design
 
-    if (Object.keys(changedProps).length > 0) {
-      console[level](`[${componentName}] Changed props:`, changedProps);
-    }
+### Home page
 
-    prev.current = propsAndStates;
-  });
-};
+![T-Shirt E-Commerce Homepage](shopping-home.png)
 
-export default useRenderingTrace;
+### Products page
 
-```
+![T-Shirt E-Commerce Products Page](shopping3.png)
+
+### Cart page
+
+![T-Shirt E-Commerce Cart Page](shoping2.png)
